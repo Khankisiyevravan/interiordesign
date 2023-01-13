@@ -60,7 +60,7 @@ function App(props) {
     <div className="App">
       {/* <Header/> */}
       <Routes>
-        {/* <Route path={['/blog','/blog/detail&category=:cat']} element={<Blog />} />  dksnfk*/ }
+        {/* <Route path={['/blog','/blog/detail&category=:cat']} element={<Blog />} /> */ }
         <Route path="/test" element={<Test1 />} />
         <Route path="/home" element={<Homepages />} />
         <Route path="/interiordesign" element={<Home />} />
