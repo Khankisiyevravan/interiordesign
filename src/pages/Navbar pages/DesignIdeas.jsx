@@ -24,6 +24,8 @@ function DesignIdeas(props) {
   const filterRefStyle = useRef();
   const filterRefAll = useRef();
   useEffect(() => {
+    console.log(filterRefType.current);
+
     const getData = async () => {
       let data = await fetch("http://localhost:7732/furniture").then((a) =>
         a.json()
@@ -137,7 +139,7 @@ function DesignIdeas(props) {
     const endOffset = itemOffset + itemsPerPage;
     setCurrentItems(checkData?.slice(itemOffset, endOffset));
     setPageCount(Math.ceil(checkData?.length / itemsPerPage));
-  }, [itemOffset, itemsPerPage, checkData]);
+  }, [  ]);
   const handlePageClick = (event) => {
     const newOffset = (event.selected * itemsPerPage) % checkData?.length;
     setItemOffset(newOffset);
@@ -161,12 +163,13 @@ function DesignIdeas(props) {
     // console.log(ul);
   };
   const left = useRef();
-  const filterClose = ()=>{
-    left.current.style.transform ="translateX(100%)"
-  }
-  const openFilter = ()=>{
-    left.current.style.transform ="translateX(0)"
-  }
+  const filterClose = () => {
+    console.log(left);
+    left.current.style.transform = "translateX(100%)";
+  };
+  const openFilter = () => {
+    left.current.style.transform = "translateX(0)";
+  };
   return (
     <>
       <Head />
@@ -327,7 +330,10 @@ function DesignIdeas(props) {
           <div className="all-right">
             <div>
               <h5>BÜTÜN KATEQORİYALAR</h5>{" "}
-              <i onClick={(e)=>openFilter(e)} class="fa-solid fa-bars-filter"></i>
+              <i
+                onClick={(e) => openFilter(e)}
+                class="fa-solid fa-bars-filter"
+              ></i>
             </div>
 
             <div id="all-category-items">

@@ -124,9 +124,9 @@ function Home() {
               <div className="design-type-text">
                 <h6>İnteryer Dizayn</h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet.
+                  İnteryer dizayn sahəsi insanlara özünü həm mənəvi, həmdə
+                  fiziki olaraq rahat hiss etdirən, onların dünyaya olan
+                  baxışını zənginləşdirən sənətdir.
                 </p>
               </div>
             </div>
@@ -137,9 +137,7 @@ function Home() {
               <div className="design-type-text">
                 <h6>Ev Dizaynı</h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet.
+                yaşayış yerinin və ya məkanın memarlığına mükəmməl bir iltifat verir. Hər hansısa bir yaşayış binasına yaxınlaşdıqda, ilk fərqinə vardığımız binanın xarici görünüşü olur
                 </p>
               </div>
             </div>
@@ -150,9 +148,7 @@ function Home() {
               <div className="design-type-text">
                 <h6>Ofis Dizaynı</h6>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet.
+                ümumiyyətlə sənət və dizayn ənənələrinin birləşməsidir, bir ərazinin və ya bölgənin ümumi topoqrafik sistemidir.
                 </p>
               </div>
             </div>

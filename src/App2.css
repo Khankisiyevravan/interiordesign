@@ -21,6 +21,9 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+section {
+  max-width: 1700px;
+}
 .btn {
   display: block;
   height: 3rem;
@@ -89,6 +92,7 @@ header.scroll {
   top: -91px;
   transform: translateY(90px);
   transition: transform 0.7s;
+  opacity: 0;
 }
 #new-blog-text p {
   width: 100%;
@@ -1640,10 +1644,10 @@ h4 {
   /* gap: 20px; */
   padding: 0;
 }
-.map{
+.map {
   width: 50%;
 }
-.map iframe{
+.map iframe {
   width: 100%;
   height: 100%;
 }
@@ -2841,7 +2845,7 @@ h4 {
   .all-category-item {
     width: 49%;
   }
-  #all-category{
+  #all-category {
     overflow: hidden;
   }
   .open {
@@ -2861,16 +2865,16 @@ h4 {
   .open li a {
     font-size: 1rem;
   }
-  #contact-us-main{
+  #contact-us-main {
     flex-wrap: wrap;
   }
-  #contact-us-main form{
+  #contact-us-main form {
     width: 70%;
     display: flex;
     margin: 0 auto;
     /* justify-content: space-between; */
   }
-  .map{
+  .map {
     width: 100%;
     height: 300px;
   }
