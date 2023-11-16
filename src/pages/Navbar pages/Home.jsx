@@ -120,7 +120,7 @@ function Home() {
           <div id="design-types">
             <div className="design-type">
               <div className="number">
-                <img src="./imgs/01.png" alt="" />
+                <img src="/interiordesign/imgs/01.png" alt="" />
               </div>
               <div className="design-type-text">
                 <h6>İnteryer Dizayn</h6>
@@ -133,7 +133,7 @@ function Home() {
             </div>
             <div className="design-type">
               <div className="number">
-                <img src="./imgs/02.png" alt="" />
+                <img src="/interiordesign/imgs/02.png" alt="" />
               </div>
               <div className="design-type-text">
                 <h6>Ev Dizaynı</h6>
@@ -146,7 +146,7 @@ function Home() {
             </div>
             <div className="design-type">
               <div className="number">
-                <img src="./imgs/03.png" alt="" />
+                <img src="/interiordesign/imgs/03.png" alt="" />
               </div>
               <div className="design-type-text">
                 <h6>Ofis Dizaynı</h6>
@@ -218,13 +218,13 @@ function Home() {
             </div>
             <div id="work-principles-image">
               <div id="work-princip-first">
-                <img src="./imgs/worker-princip1.png" alt="" />
+                <img src="/interiordesign/imgs/worker-princip1.png" alt="" />
               </div>
               <div id="work-princip-second">
-                <img src="./imgs/worker-princip2.png" alt="" />
+                <img src="/interiordesign/imgs/worker-princip2.png" alt="" />
               </div>
               <div id="work-princip-third">
-                <img src="./imgs/worker-princip3.png" alt="" />
+                <img src="/interiordesign/imgs/worker-princip3.png" alt="" />
               </div>
             </div>
           </div>
@@ -301,7 +301,7 @@ function Home() {
                   </p>
                   <div className="comment-author">
                     <div className="comment-author-image">
-                      <img src="./imgs/author-picture1.png" alt="" />
+                      <img src="/interiordesign/imgs/author-picture1.png" alt="" />
                     </div>
                     <div className="comment-author-text">
                       <span className="author-name">Səməd Əliyev</span>
@@ -319,7 +319,7 @@ function Home() {
                   </p>
                   <div className="comment-author">
                     <div className="comment-author-image">
-                      <img src="./imgs/author-picture1.png" alt="" />
+                      <img src="/interiordesign/imgs/author-picture1.png" alt="" />
                     </div>
                     <div className="comment-author-text">
                       <span className="author-name">Səməd Əliyev</span>
@@ -337,7 +337,7 @@ function Home() {
                   </p>
                   <div className="comment-author">
                     <div className="comment-author-image">
-                      <img src="./imgs/author-picture1.png" alt="" />
+                      <img src="/interiordesign/imgs/author-picture1.png" alt="" />
                     </div>
                     <div className="comment-author-text">
                       <span className="author-name">Səməd Əliyev</span>
@@ -355,7 +355,7 @@ function Home() {
                   </p>
                   <div className="comment-author">
                     <div className="comment-author-image">
-                      <img src="./imgs/author-picture1.png" alt="" />
+                      <img src="/interiordesign/imgs/author-picture1.png" alt="" />
                     </div>
                     <div className="comment-author-text">
                       <span className="author-name">Səməd Əliyev</span>
@@ -373,7 +373,7 @@ function Home() {
                   </p>
                   <div className="comment-author">
                     <div className="comment-author-image">
-                      <img src="./imgs/author-picture1.png" alt="" />
+                      <img src="/interiordesign/imgs/author-picture1.png" alt="" />
                     </div>
                     <div className="comment-author-text">
                       <span className="author-name">Səməd Əliyev</span>
@@ -391,7 +391,7 @@ function Home() {
                   </p>
                   <div className="comment-author">
                     <div className="comment-author-image">
-                      <img src="./imgs/author-picture1.png" alt="" />
+                      <img src="/interiordesign/imgs/author-picture1.png" alt="" />
                     </div>
                     <div className="comment-author-text">
                       <span className="author-name">Səməd Əliyev</span>
@@ -422,16 +422,16 @@ function Home() {
           </div>
           <div id="galery-view">
             <div className="galery-view-card">
-              <img src="./imgs/galery-view1.png" alt="" />
+              <img src="/interiordesign/imgs/galery-view1.png" alt="" />
             </div>
             <div className="galery-view-card">
-              <img src="./imgs/galery-view2.png" alt="" />
+              <img src="/interiordesign/imgs/galery-view2.png" alt="" />
             </div>
             <div className="galery-view-card">
-              <img src="./imgs/galery-view3.png" alt="" />
+              <img src="/interiordesign/imgs/galery-view3.png" alt="" />
             </div>
             <div className="galery-view-card">
-              <img src="./imgs/galery-view4.png" alt="" />
+              <img src="/interiordesign/imgs/galery-view4.png" alt="" />
             </div>
           </div>
         </div>
@@ -453,7 +453,7 @@ function Home() {
             </div>
           </div>
           <div id="low-price-image">
-            <img src="./imgs/low-price.png" alt="" />
+            <img src="/interiordesign/imgs/low-price.png" alt="" />
             <div id="low-price-percent">-35%</div>
           </div>
         </div>

@@ -152,7 +152,7 @@ function About() {
       <Head />
       <section
         className="page-header"
-        style={{ backgroundImage: `url('./imgs/about-us-bg2.jpeg')` }}
+        style={{ backgroundImage: `url('/interiordesign/imgs/about-us-bg2.jpeg')` }}
       >
         <div className="container">
           <h2>Haqqımızda</h2>
@@ -164,7 +164,7 @@ function About() {
         </div>
         <div id="history-bottom">
           <div id="history-image">
-            <img src="./imgs/about-history-bg.png" alt="" />
+            <img src="/interiordesign/imgs/about-history-bg.png" alt="" />
           </div>
           <div id="history-text">
             <h3>1980-ci il, işə başladığımız gündən</h3>
@@ -200,10 +200,10 @@ function About() {
             </div>
             <div id="start-company-image">
               <div id="start-company-image1">
-                <img src="./imgs/start-company-bg1.png" alt="" />
+                <img src="/interiordesign/imgs/start-company-bg1.png" alt="" />
               </div>
               <div id="start-company-image2">
-                <img src="./imgs/start-company-bg2.png" alt="" />
+                <img src="/interiordesign/imgs/start-company-bg2.png" alt="" />
               </div>
             </div>
           </div>
@@ -248,7 +248,7 @@ function About() {
             >
               <SwiperSlide>
                 <div>
-                  <img src="./imgs/team-person1.png" alt="" />
+                  <img src="/interiordesign/imgs/team-person1.png" alt="" />
                 </div>
                 <div className="swiper-slide-text">
                   <h6>Dizayner</h6>
@@ -261,7 +261,7 @@ function About() {
               </SwiperSlide>
               <SwiperSlide>
                 <div>
-                  <img src="./imgs/team-person2.png" alt="" />
+                  <img src="/interiordesign/imgs/team-person2.png" alt="" />
                 </div>
                 <div className="swiper-slide-text">
                   <h6>Dizayner</h6>
@@ -274,7 +274,7 @@ function About() {
               </SwiperSlide>
               <SwiperSlide>
                 <div>
-                  <img src="./imgs/team-person3.png" alt="" />
+                  <img src="/interiordesign/imgs/team-person3.png" alt="" />
                 </div>
                 <div className="swiper-slide-text">
                   <h6>Dizayner</h6>
@@ -287,7 +287,7 @@ function About() {
               </SwiperSlide>
               <SwiperSlide>
                 <div>
-                  <img src="./imgs/team-person4.png" alt="" />
+                  <img src="/interiordesign/imgs/team-person4.png" alt="" />
                 </div>
                 <div className="swiper-slide-text">
                   <h6>Dizayner</h6>
@@ -320,16 +320,16 @@ function About() {
           </div>
           <div id="galery-view">
             <div className="galery-view-card">
-              <img src="./imgs/galery-view1.png" alt="" />
+              <img src="/interiordesign/imgs/galery-view1.png" alt="" />
             </div>
             <div className="galery-view-card">
-              <img src="./imgs/galery-view2.png" alt="" />
+              <img src="/interiordesign/imgs/galery-view2.png" alt="" />
             </div>
             <div className="galery-view-card">
-              <img src="./imgs/galery-view3.png" alt="" />
+              <img src="/interiordesign/imgs/galery-view3.png" alt="" />
             </div>
             <div className="galery-view-card">
-              <img src="./imgs/galery-view4.png" alt="" />
+              <img src="/interiordesign/imgs/galery-view4.png" alt="" />
             </div>
           </div>
         </div>

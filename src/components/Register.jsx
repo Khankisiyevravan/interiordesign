@@ -6,7 +6,7 @@ function Register() {
       <div className="container">
         <div className="login-head">
           <Link to="/interior-designs" id="logo">
-            <img src="/imgs/logo-main.png" alt="" />
+            <img src="/interiordesign/imgs/logo-main.png" alt="" />
           </Link>
         </div>
         <div id="login" style={{height:"605px"}}>
@@ -27,13 +27,13 @@ function Register() {
           <p>Sosial şəbəkələrlə qeydiyyatdan keç</p>
           <div id="social-networks">
             <div className="social-network">
-              <img src="/imgs/google.png" alt="" />
+              <img src="/interiordesign/imgs/google.png" alt="" />
             </div>
             <div className="social-network">
-              <img src="/imgs/twitter.png" alt="" />
+              <img src="/interiordesign/imgs/twitter.png" alt="" />
             </div>
             <div className="social-network">
-              <img src="/imgs/facebook.png" alt="" />
+              <img src="/interiordesign/imgs/facebook.png" alt="" />
             </div>
           </div>
         </div>

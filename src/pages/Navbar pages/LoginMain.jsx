@@ -100,7 +100,7 @@ function LoginMain() {
                 Sign up
               </button>
             </div>
-            <img src="./imgs/loginMain2.svg" style={{marginRight:"150px" , width:"300px"}} className={styleMain.image} alt="" />
+            <img src="/interiordesign/imgs/loginMain2.svg" style={{marginRight:"150px" , width:"300px"}} className={styleMain.image} alt="" />
           </div>
           <div className={`${styleMain.panel} ${styleMain.right_panel}`}>
             <div className={styleMain.content}>
@@ -117,7 +117,7 @@ function LoginMain() {
                 Sign in
               </button>
             </div>
-            <img src="./imgs/loginMain.svg" className={styleMain.image}  style={{ width:"300px"}} alt="" />
+            <img src="/interiordesign/imgs/loginMain.svg" className={styleMain.image}  style={{ width:"300px"}} alt="" />
           </div>
         </div>
       </div>

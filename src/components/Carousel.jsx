@@ -25,7 +25,7 @@ function Carousel() {
       >
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="5000">
-            <img src="./imgs/home2.jpg" className="d-block w-100" alt="..." />
+            <img src="/interiordesign/imgs/home2.jpg" className="d-block w-100" alt="..." />
             <div className="c-item-position">
               <div
                 data-aos="fade-left"
@@ -43,7 +43,7 @@ function Carousel() {
             </div>
           </div>
           <div className="carousel-item" data-bs-interval="5000">
-            <img src='./imgs/home.jpg' className="d-block w-100" alt="..." />
+            <img src='/interiordesign/imgs/home.jpg' className="d-block w-100" alt="..." />
             {/* <img src={home2} className="d-block w-100" alt="..." />  */}
             <div className="c-item-position .two">
               <div data-aos="fade-left">

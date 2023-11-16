@@ -30,7 +30,7 @@ function Contact() {
       <Head />
       <section
         className="page-header"
-        style={{ backgroundImage: `url('./imgs/about-us-bg2.jpeg')` }}
+        style={{ backgroundImage: `url('/interiordesign/imgs/about-us-bg2.jpeg')` }}
       >
         <div className="container">
           <h2>Bizimlə əlaqə</h2>

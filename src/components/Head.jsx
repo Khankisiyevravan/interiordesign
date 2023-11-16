@@ -57,7 +57,7 @@ function Head() {
             <i class="fa-thin fa-bars"></i>
           </div>
           <NavLink to="/interiordesign" id="logo">
-            <img src={`/imgs/logo-main.png`} alt="" />
+            <img src={`/interiordesign/imgs/logo-main.png`} alt="" />
           </NavLink>
         </div>
         <ul ref={navbar}>

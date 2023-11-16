@@ -175,7 +175,7 @@ function DesignIdeas(props) {
       <Head />
       <section
         className="page-header designideas"
-        style={{ backgroundImage: `url('./imgs/design-ideas-page-bg.jpg')` }}
+        style={{ backgroundImage: `url('/interiordesign/imgs/design-ideas-page-bg.jpg')` }}
       >
         <div className="container">
           <h2>Dizayn İdeyaları</h2>
