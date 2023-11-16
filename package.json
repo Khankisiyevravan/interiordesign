@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Khankisiyevravan.githib.io/interior-designs",
   "name": "project",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +12,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^3.0.0-beta.6",
-    "json-server": "^0.17.1",
+    "json-server": "^0.17.4",
     "mdb-react-ui-kit": "^4.0.0",
     "mdbreact": "^5.2.0",
     "react": "^18.1.0",

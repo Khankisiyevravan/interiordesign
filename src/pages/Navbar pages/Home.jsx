@@ -31,6 +31,7 @@ function Home() {
       let data = await fetch("http://localhost:7732/type").then((c) =>
         c.json()
       );
+      console.log(typeData);
       setTypeData(data);
     };
     getTypeData();
@@ -137,7 +138,9 @@ function Home() {
               <div className="design-type-text">
                 <h6>Ev Dizaynı</h6>
                 <p>
-                yaşayış yerinin və ya məkanın memarlığına mükəmməl bir iltifat verir. Hər hansısa bir yaşayış binasına yaxınlaşdıqda, ilk fərqinə vardığımız binanın xarici görünüşü olur
+                  yaşayış yerinin və ya məkanın memarlığına mükəmməl bir iltifat
+                  verir. Hər hansısa bir yaşayış binasına yaxınlaşdıqda, ilk
+                  fərqinə vardığımız binanın xarici görünüşü olur
                 </p>
               </div>
             </div>
@@ -148,7 +151,8 @@ function Home() {
               <div className="design-type-text">
                 <h6>Ofis Dizaynı</h6>
                 <p>
-                ümumiyyətlə sənət və dizayn ənənələrinin birləşməsidir, bir ərazinin və ya bölgənin ümumi topoqrafik sistemidir.
+                  ümumiyyətlə sənət və dizayn ənənələrinin birləşməsidir, bir
+                  ərazinin və ya bölgənin ümumi topoqrafik sistemidir.
                 </p>
               </div>
             </div>
@@ -411,7 +415,7 @@ function Home() {
               <Link className="btn2" to="/contact_us">
                 Bizimlə Əlaqə
               </Link>
-              <Link className="btn2 btn2-hover" to="/home">
+              <Link className="btn2 btn2-hover" to="/interior-designs">
                 Galeriya
               </Link>
             </div>
@@ -449,7 +453,7 @@ function Home() {
             </div>
           </div>
           <div id="low-price-image">
-            <img src="/imgs/low-price.png" alt="" />
+            <img src="./imgs/low-price.png" alt="" />
             <div id="low-price-percent">-35%</div>
           </div>
         </div>

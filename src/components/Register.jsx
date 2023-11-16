@@ -5,7 +5,7 @@ function Register() {
     <section id="login-section">
       <div className="container">
         <div className="login-head">
-          <Link to="/" id="logo">
+          <Link to="/interior-designs" id="logo">
             <img src="/imgs/logo-main.png" alt="" />
           </Link>
         </div>

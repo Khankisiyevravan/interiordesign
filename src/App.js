@@ -60,10 +60,10 @@ function App(props) {
     <div className="App">
       {/* <Header/> */}
       <Routes>
-        {/* <Route path={['/blog','/blog/detail&category=:cat']} element={<Blog />} /> */ }
+        {/* <Route path={['/blog','/blog/detail&category=:cat']} element={<Blog />} /> */}
         <Route path="/test" element={<Test1 />} />
         <Route path="/home" element={<Homepages />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/interior-designs/" element={<Home />} />
         <Route path="/design_ideas" element={<Catalog />} />
         {["/blog", "/blog/detail&category=:cat"].map((path, index) => (
           <Route path={path} element={<Blog />} key={index} />

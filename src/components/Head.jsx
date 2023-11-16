@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { NavLink, useLocation } from "react-router-dom";
+// import second from '../../public/imgs/'
 function Head() {
   const [types, setTypes] = useState([]);
   const location = useLocation();
@@ -48,7 +49,6 @@ function Head() {
       e.target.closest("li").querySelector(".open").classList.toggle("drop");
     }
   };
-
   return (
     <header ref={headerRef}>
       <div className="container">
@@ -56,8 +56,8 @@ function Head() {
           <div onClick={(e) => openHeader(e)} id="navbar-icon">
             <i class="fa-thin fa-bars"></i>
           </div>
-          <NavLink to="/" id="logo">
-            <img src="../../imgs/logo-main.png" alt="" />
+          <NavLink to="/interior-designs" id="logo">
+            <img src={`/imgs/logo-main.png`} alt="" />
           </NavLink>
         </div>
         <ul ref={navbar}>
@@ -65,7 +65,7 @@ function Head() {
             <i class="fa-light fa-x"></i>
           </li>
           <li>
-            <NavLink to="/">Baş səhifə</NavLink>
+            <NavLink to="/interior-designs">Baş səhifə</NavLink>
           </li>
           <li className="dropdown">
             <NavLink to="/design_ideas">

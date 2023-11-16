@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function NotFound() {
   return (
     <p>NotFounddd
-      <Link to='/interiordesign'>
+      <Link to='/interior-designs'>
       sdaskfld
       </Link>
     </p>

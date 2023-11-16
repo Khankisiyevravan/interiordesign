@@ -26,7 +26,7 @@ function CarouselNew() {
         modules={[Pagination, Navigation, EffectFade]}
         className="mySwiper"
       >
-        <SwiperSlide style={{ backgroundImage: `url('/imgs/home3.png')` }}>
+        <SwiperSlide style={{ backgroundImage: `url('./imgs/home3.png')` }}>
           <div className="container">
             <div className="swiper-slide-text">
               <h3>Rahatlığınız üçün evinizi bizimlə yenidən qurun.</h3>
@@ -41,7 +41,7 @@ function CarouselNew() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ backgroundImage: `url('/imgs/home4.jpg')` }}>
+        <SwiperSlide style={{ backgroundImage: `url('./imgs/home4.jpg')` }}>
           <div className="container">
             <div className="swiper-slide-text">
               <h3>Rahatlığınız üçün evinizi bizimlə yenidən qurun.</h3>
@@ -56,7 +56,7 @@ function CarouselNew() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ backgroundImage: `url('/imgs/home6.jpg')` }}>
+        <SwiperSlide style={{ backgroundImage: `url('./imgs/home6.jpg')` }}>
           <div className="container">
             <div className="swiper-slide-text">
               <h3>Rahatlığınız üçün evinizi bizimlə yenidən qurun.</h3>
@@ -71,7 +71,7 @@ function CarouselNew() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ backgroundImage: `url('/imgs/home4.jpg')` }}>
+        <SwiperSlide style={{ backgroundImage: `url('./imgs/home4.jpg')` }}>
           <div className="container">
             <div className="swiper-slide-text">
               <h3>Rahatlığınız üçün evinizi bizimlə yenidən qurun.</h3>

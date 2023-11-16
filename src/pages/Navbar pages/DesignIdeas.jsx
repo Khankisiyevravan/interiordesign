@@ -190,7 +190,7 @@ function DesignIdeas(props) {
                 <i
                   id="xx"
                   onClick={() => filterClose()}
-                  class="fa-light fa-x"
+                  className="fa-light fa-x"
                 ></i>
               </h4>
             </div>
@@ -332,7 +332,7 @@ function DesignIdeas(props) {
               <h5>BÜTÜN KATEQORİYALAR</h5>{" "}
               <i
                 onClick={(e) => openFilter(e)}
-                class="fa-solid fa-bars-filter"
+                className="fa-solid fa-bars-filter"
               ></i>
             </div>
 
