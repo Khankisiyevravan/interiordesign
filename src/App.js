@@ -63,7 +63,7 @@ function App(props) {
         {/* <Route path={['/blog','/blog/detail&category=:cat']} element={<Blog />} /> */}
         <Route path="/test" element={<Test1 />} />
         <Route path="/home" element={<Homepages />} />
-        <Route path="/interiordesign/" element={<Home />} />
+        <Route path="/interiordesign" element={<Home />} />
         <Route path="/design_ideas" element={<Catalog />} />
         {["/blog", "/blog/detail&category=:cat"].map((path, index) => (
           <Route path={path} element={<Blog />} key={index} />
