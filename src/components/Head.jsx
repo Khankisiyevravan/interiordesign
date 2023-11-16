@@ -56,7 +56,7 @@ function Head() {
           <div onClick={(e) => openHeader(e)} id="navbar-icon">
             <i class="fa-thin fa-bars"></i>
           </div>
-          <NavLink to="/interiordesign" id="logo">
+          <NavLink to="/interiordesign/" id="logo">
             <img src={`/interiordesign/imgs/logo-main.png`} alt="" />
           </NavLink>
         </div>
@@ -65,7 +65,7 @@ function Head() {
             <i class="fa-light fa-x"></i>
           </li>
           <li>
-            <NavLink to="/interiordesign">Baş səhifə</NavLink>
+            <NavLink to="/interiordesign/">Baş səhifə</NavLink>
           </li>
           <li className="dropdown">
             <NavLink to="/design_ideas">
